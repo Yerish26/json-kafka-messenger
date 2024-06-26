@@ -12,6 +12,11 @@ Test containers are also used in integration tests.
 .\mvnw clean install
 ```
 
+### Run integration tests
+```bash
+.\mvnw test -Dtest=**/*IT
+```
+
 ### Compile (without tests)
 ```bash
 .\mvnw clean install -DskipTests
