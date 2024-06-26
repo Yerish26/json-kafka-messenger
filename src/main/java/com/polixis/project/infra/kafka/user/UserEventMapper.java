@@ -1,6 +1,5 @@
 package com.polixis.project.infra.kafka.user;
 
-import com.polixis.project.core.user.User;
 import com.polixis.project.core.user.UserSaveRequest;
 import org.mapstruct.Mapper;
 
